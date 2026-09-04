@@ -8,7 +8,7 @@
 
 > **Try the free web-based version to audit your community finances today. If you need the offline version for permanent reserve fund records, vendor audit trails, and repeated monthly use, you can upgrade with a 30-day, no-questions-asked money-back guarantee.**
 >
-> [🌐 Open Free Web-Based HOA Budget Tracker] → HTML live version
+> [🌐 Open Free Web-Based HOA Budget Tracker] → [HTML live version](https://hyvoid.github.io/hoa-budget-accounting-spreadsheet/)
 > 
 > [📥 Download Reusable HOA Financial Excel Template] → Excel version
 
