@@ -1,0 +1,256 @@
+@import "tailwindcss";
+
+:root {
+  /* ── Clean Minimalism Core Palette ── */
+  --bg:               #F5F5F2;
+  --brand:            #051C2C;
+  --accent:           #2251FF;
+  --grey:             #888888;
+  --yellow-edit:      #FFFDE7;
+
+  /* Aliases for compatibility */
+  --color-primary:    var(--brand);
+  --color-accent:     var(--accent);
+  --color-bg:         var(--bg);
+  --color-muted:      var(--grey);
+  --color-body-text:  #1A1A2E;
+
+  /* ── Semantic (anomaly / action-required states only) ───── */
+  --color-positive:   #00C853;
+  --color-negative:   #D32F2F;
+  --pill-green-bg:    #E8F5E9;
+  --pill-red-bg:      #FFEBEE;
+
+  /* ── Surface & Shadows ─────────────────────────────────── */
+  --color-surface:    #FFFFFF;
+  --color-input-bg:   var(--yellow-edit);
+  --color-border:     #E5E5E1;
+  --card-shadow:      0 10px 25px -5px rgba(0,0,0,0.05), 0 8px 10px -6px rgba(0,0,0,0.05);
+  --shadow-nav:       0 1px 3px rgba(5, 28, 44, 0.04), 0 1px 0px rgba(5, 28, 44, 0.06);
+
+  /* ── Typography ───────────────────────────────────────── */
+  --font-serif:       'Georgia', 'EB Garamond', serif;
+  --font-sans:        'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading:     var(--font-serif);
+  --font-body:        var(--font-sans);
+
+  /* ── Type Scale & Tracking ────────────────────────────── */
+  --text-page-title:  28px;
+  --text-section:     18px;
+  --text-kpi-value:   32px;
+  --text-table-head:  11px;
+  --text-body:        13px;
+  --text-label:       11px;
+
+  --tracking-display: -0.03em;
+  --tracking-heading: -0.02em;
+  --tracking-label:   0.06em;
+
+  /* ── Radius System ─────────────────────────────────────── */
+  --radius-sm:        4px;
+  --radius-md:        8px;
+  --radius-lg:        12px;
+  --radius-pill:      999px;
+
+  /* ── Table Header Standard ────────────────────────────── */
+  --table-header-bg:  var(--brand);
+  --table-header-text: #FFFFFF;
+
+  /* ── Insight & Anomaly Surfaces ──────────────────────── */
+  --insight-bg:       rgba(5, 28, 44, 0.04);
+  --anomaly-bg:       rgba(211, 47, 47, 0.04);
+
+  /* ── Motion System ─────────────────────────────────────── */
+  --ease-standard:    cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-spring:      cubic-bezier(0.34, 1.56, 0.64, 1.0);
+  --dur-fast:         150ms;
+  --dur-normal:       220ms;
+  --dur-slow:         400ms;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--brand);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography helper classes */
+.font-display {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.tracking-display {
+  letter-spacing: var(--tracking-display);
+}
+
+.tracking-heading {
+  letter-spacing: var(--tracking-heading);
+}
+
+.tracking-table-head {
+  letter-spacing: var(--tracking-label);
+}
+
+/* Clean Minimalism Card */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  padding: 20px;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.hover-card {
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-2px);
+}
+
+/* KPI Typography */
+.kpi-title {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  color: var(--grey);
+  margin-bottom: 8px;
+}
+
+.kpi-value {
+  font-family: var(--font-serif);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--accent);
+}
+
+/* Interactive matrix cell */
+.interactive-cell {
+  transition: transform var(--dur-fast) var(--ease-standard), filter var(--dur-fast) var(--ease-standard);
+}
+
+.interactive-cell:hover {
+  transform: scale(1.04);
+  filter: brightness(1.03);
+}
+
+/* Page fadeUp animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp var(--dur-normal) var(--ease-standard) both;
+}
+
+/* Clean Minimalism Table Container & Header */
+.table-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header {
+  background: var(--brand);
+  color: white;
+  padding: 12px 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 11px;
+}
+
+.table-th {
+  background-color: var(--table-header-bg);
+  color: var(--table-header-text);
+  letter-spacing: var(--tracking-label);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/* Clean Minimalism Pills */
+.pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.pill-green {
+  background: #E8F5E9;
+  color: #00C853;
+}
+
+.pill-red {
+  background: #FFEBEE;
+  color: #D32F2F;
+}
+
+/* Insight block */
+.insight-block,
+.insight-box {
+  border-left: 3px solid var(--accent);
+  background: rgba(5, 28, 44, 0.04);
+  padding: 16px;
+}
+
+/* Anomaly block / row */
+.anomaly-row {
+  background-color: var(--anomaly-bg);
+}
+
+/* Editable cell background */
+.cell-editable,
+.editable {
+  background-color: var(--yellow-edit) !important;
+}
+
+/* Clean Minimalism Data Bar */
+.data-bar-bg {
+  height: 8px;
+  background: rgba(5, 28, 44, 0.1);
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+}
+
+.data-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 4px;
+}
+
+/* Footer text */
+.footer-text {
+  font-size: 11px;
+  color: var(--grey);
+  text-align: center;
+  padding: 16px 0;
+}

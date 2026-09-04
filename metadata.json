@@ -1,0 +1,6 @@
+{
+  "name": "HOA Cost Allocation & Budget Engine",
+  "description": "Standardized cost allocation, budget variance analysis, and financial decision engine for Homeowner Associations with live calculation and local storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
