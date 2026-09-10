@@ -10,7 +10,7 @@
 >
 > [🌐 Open Free Web-Based HOA Budget Tracker] → [HTML live version](https://hyvoid.github.io/hoa-budget-accounting-spreadsheet/)
 > 
-> [📥 Download Reusable HOA Financial Excel Template] → Excel version
+> [📥 Download Reusable HOA Financial Excel Template] → [Excel version](https://alexhasgreatestuff.gumroad.com/l/stwjpi)
 
 ## HOA Financial Pain Points & Automated Solutions
 
@@ -41,7 +41,7 @@ Navigate to the automated reporting views. The engine instantly processes your r
 ### Step 4: Download for Permanent Record & Repeated Use
 Once you have validated your current month's expenses in the web application, transition to a sustainable monthly close process. 
 
-**Ready to standardize your community's financial reporting? [📥 Download the permanent HOA Budget Excel Template] to secure your offline audit trails, retain historical general ledgers, and repeat this streamlined workflow every month without starting from scratch.**
+**Ready to standardize your community's financial reporting? [📥 Download the permanent HOA Budget Excel Template](https://alexhasgreatestuff.gumroad.com/l/stwjpi) to secure your offline audit trails, retain historical general ledgers, and repeat this streamlined workflow every month without starting from scratch.**
 
 ## Standard Accounting vs. Automated HOA Spreadsheet
 
