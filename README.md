@@ -10,22 +10,19 @@
 >
 > [🌐 Open Free Web-Based HOA Budget Tracker] → [HTML live version](https://hyvoid.github.io/hoa-budget-accounting-spreadsheet/)
 > 
-> [📥 Download Reusable HOA Financial Excel Template] → [Excel version](https://alexhasgreatestuff.gumroad.com/l/stwjpi)
+> [📥 Download Reusable HOA Financial Excel Template] → [Excel version](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README)
 
 ## HOA Financial Pain Points & Automated Solutions
 
 Instead of reviewing an unstructured bank ledger, this HOA expense tracking tool maps common property management bottlenecks to automated reporting solutions:
 
-* **Pain Point: Messy Bank Exports & Uncategorized Spend.** 
-  **Solution:** Automatically maps unstructured raw vendor payments into a standardized operating budget and reserve fund cost category taxonomy.
-* **Pain Point: Unpredictable Maintenance Overruns.** 
-  **Solution:** Generates real-time **Budget vs. Actual performance dashboards**, including cumulative variance, budget burn rate, and visual flags for the largest financial exposures.
-* **Pain Point: Calculating Complex HOA Dues & Special Assessments.** 
-  **Solution:** Translates common property expenses into accurate, owner-level assessments using square-footage, equal-share, or custom weighted allocation calculators.
-* **Pain Point: Hidden Errors in Accounts Payable.** 
-  **Solution:** Creates an automated audit trail that flags potential duplicate vendor invoices, negative reversal entries, and unmapped general ledger (GL) transactions.
-* **Pain Point: Confusing Board Meetings.** 
-  **Solution:** Translates raw data into a management-level financial summary, highlighting YTD operating spend, average cost per residential unit, and leading overrun categories for quick board approvals.
+| Pain Point | Solution |
+| :--- | :--- |
+| **Messy Bank Exports & Uncategorized Spend** | Automatically maps unstructured raw vendor payments into a standardized operating budget and reserve fund cost category taxonomy. |
+| **Unpredictable Maintenance Overruns** | Generates real-time **Budget vs. Actual performance dashboards**, including cumulative variance, budget burn rate, and visual flags for the largest financial exposures. |
+| **Calculating Complex HOA Dues & Special Assessments** | Translates common property expenses into accurate, owner-level assessments using square-footage, equal-share, or custom weighted allocation calculators. |
+| **Hidden Errors in Accounts Payable** | Creates an automated audit trail that flags potential duplicate vendor invoices, negative reversal entries, and unmapped general ledger (GL) transactions. |
+| **Confusing Board Meetings** | Translates raw data into a management-level financial summary, highlighting YTD operating spend, average cost per residential unit, and leading overrun categories for quick board approvals. |
 
 ## Quick Start Tutorial: Automate Your HOA Monthly Close
 
@@ -41,7 +38,7 @@ Navigate to the automated reporting views. The engine instantly processes your r
 ### Step 4: Download for Permanent Record & Repeated Use
 Once you have validated your current month's expenses in the web application, transition to a sustainable monthly close process. 
 
-**Ready to standardize your community's financial reporting? [📥 Download the permanent HOA Budget Excel Template](https://alexhasgreatestuff.gumroad.com/l/stwjpi) to secure your offline audit trails, retain historical general ledgers, and repeat this streamlined workflow every month without starting from scratch.**
+**Ready to standardize your community's financial reporting? [📥 Download the permanent HOA Budget Excel Template](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README) to secure your offline audit trails, retain historical general ledgers, and repeat this streamlined workflow every month without starting from scratch.**
 
 ## Standard Accounting vs. Automated HOA Spreadsheet
 
