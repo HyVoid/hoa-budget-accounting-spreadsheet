@@ -1,4 +1,4 @@
-[ 🌐 عربي ](README.ar.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+[ 🌐 عربي ](README.ar.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # قالب جدول بيانات تخصيص تكاليف جمعية الملاك (HOA) وتتبّع الموازنة
 
@@ -13,6 +13,8 @@
 > [🌐 فتح متتبّع موازنة جمعية الملاك (HOA) المجاني عبر الويب] → [النسخة الحية HTML](https://hyvoid.github.io/hoa-budget-accounting-spreadsheet/)
 > 
 > [📥 تنزيل قالب إكسيل المالي القابل لإعادة الاستخدام لجمعية الملاك (HOA)] → [نسخة إكسيل](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README)
+<img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
+<img width="1436" height="790" alt="image" src="https://github.com/user-attachments/assets/17079dbe-86aa-4257-982c-c87d497cb5af" />
 
 ## نقاط الضعف المالية في جمعيات الملاك (HOA) والحلول الآلية
 
