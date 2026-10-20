@@ -1,6 +1,7 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # HOA Cost Allocation & Budget Tracking Spreadsheet Template
+<img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-informational.svg)
@@ -8,7 +9,6 @@
 
 **A lightweight HOA accounting software alternative and property management spreadsheet template designed for homeowners associations. Turn raw bank transactions into categorized expenses, accurate owner fee assessments, and board-ready budget vs. actual variance reports—with no monthly subscriptions, zero installation, and seamless access via browser or Excel.**
 
-<img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
 <img width="1436" height="790" alt="image" src="https://github.com/user-attachments/assets/17079dbe-86aa-4257-982c-c87d497cb5af" />
 
 
@@ -835,41 +835,25 @@ It does not eliminate the need for appropriate accounting review, source-documen
 
 ## The Business Logic & Methodology
 
-The model is built around a simple commercial principle: **the useful number is not necessarily the first number available.** HOA management needs a controlled path from payment activity to a defensible decision.
+The HOA Cost Allocation & Budget Engine is designed to help homeowners associations (HOAs), property managers, and HOA board members turn raw financial transactions into actionable cost-control and budgeting decisions. It combines **HOA expense tracking, budget vs. actual analysis, cost allocation, transaction validation, and financial reporting** in one lightweight decision-support workflow.
 
-* **Cost classification** turns inconsistent transaction descriptions into a consistent cost view. This solves the problem of comparing unlike expenses and makes recurring cost drivers easier to identify.
-* **Variance analysis** compares planned spending with actual spending through the current reporting period. This makes budget pressure visible while there is still time to investigate or adjust it.
-* **Threshold alerting** separates ordinary variance from items that deserve management attention. The result is less time spent scanning every line and more attention on material exceptions.
-* **Multi-method allocation** shows how the same common-cost pool changes when the allocation basis changes. This makes owner-level assessments easier to explain and review.
-* **Exception-based validation** treats unmapped, duplicate-looking, and reversal transactions as review items before they contaminate management conclusions.
+Rather than treating bookkeeping and budgeting as separate tasks, the model connects transaction-level financial data to the questions that matter operationally: Where is HOA money being spent? Which expense categories are exceeding budget? How should shared costs be allocated across units? Which transactions need review before financial reports are relied upon?
 
-The methodology therefore moves the workflow from **“What did we pay?”** toward **“What did we pay, where does it belong, is the number reliable, how does it compare with plan, and what does it mean for each unit?”**
+The methodology addresses these questions through five complementary methods:
 
-### End-to-End Control Logic
+- **Expense Classification and Cost Categorization:** Standardizes inconsistent bank transaction descriptions and vendor payment records into consistent HOA expense categories. This reduces manual bookkeeping effort, improves spending visibility, and makes recurring maintenance, utilities, administration, and other operating costs easier to compare.
 
-```text
-Source Transactions
-        │
-        ▼
-Standardized Cost View
-        │
-        ├──────────────► Validation / Exceptions
-        │
-        ▼
-Monthly & YTD Cost Analysis
-        │
-        ├──────────────► Budget Variance
-        │
-        └──────────────► Common-Cost Allocation
-                                  │
-                                  ▼
-                         Owner-Level Assessment
-                                  │
-                                  ▼
-                         Management Decision
-```
+- **Budget vs. Actual Variance Analysis:** Compares actual expenditure with approved budgets by category and reporting period. Absolute variance, percentage variance, and cumulative spending reveal budget overruns that can remain hidden in aggregate financial totals, helping HOA boards investigate cost increases before they become persistent budget problems.
 
-The important design choice is that **validation runs alongside the analytical path**, rather than being treated as a final cosmetic check. This keeps questionable records visible before they become apparently precise management metrics. 
+- **Threshold-Based Financial Alerts:** Applies configurable variance thresholds to distinguish routine differences from material budget deviations. Instead of reviewing every expense with equal priority, property managers and board members can focus on categories that require investigation, corrective action, or budget revision.
+
+- **HOA Common-Cost Allocation:** Distributes eligible shared expenses across property units using square-footage-based, equal-share, or configured weighting methods. This makes the relationship between total community expenditure and unit-level assessments more transparent and supports the review of alternative allocation scenarios. The applicable method must remain consistent with the HOA's governing documents and relevant requirements.
+
+- **Transaction Validation and Exception Detection:** Flags unmapped transactions, potential duplicate payments, and negative or reversal entries for review. These controls help identify data-quality issues before they distort expense reports, budget comparisons, or owner-level allocation results.
+
+Together, these methods create a repeatable process from **raw HOA financial data to classified expenses, validated records, budget variance analysis, and owner-level cost visibility**. The goal is not simply to produce another financial dashboard. It is to help HOA managers and board members identify cost overruns earlier, understand the drivers of community expenses, review allocation assumptions, and make more defensible financial decisions.
+
+The tool is available as a browser-based version and an Excel version, providing a lightweight alternative for associations that need structured HOA financial analysis without immediately adopting a complex property-management or enterprise financial system.
 
 ---
 
