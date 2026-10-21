@@ -1,6 +1,7 @@
-[ 🌐 عربي ](README.ar.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # Plantilla de Hoja de Cálculo para Asignación de Costos y Seguimiento del Presupuesto de la HOA
+<img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-informational.svg)
@@ -13,7 +14,6 @@
 > [🌐 Abrir el Rastreador de Presupuesto HOA Gratuito en Web] → [versión en vivo HTML](https://hyvoid.github.io/hoa-budget-accounting-spreadsheet/)
 > 
 > [📥 Descargar la Plantilla Reutilizable de Excel Financiera para HOA] → [versión de Excel](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README)
-<img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
 <img width="1436" height="790" alt="image" src="https://github.com/user-attachments/assets/17079dbe-86aa-4257-982c-c87d497cb5af" />
 
 ## Puntos Críticos Financieros de la HOA y Soluciones Automatizadas
@@ -827,41 +827,25 @@ No elimina la necesidad de una revisión contable apropiada, retención de docum
 
 ## La Lógica de Negocio y Metodología
 
-El modelo se construye en torno a un principio comercial simple: **el número útil no es necesariamente el primer número disponible.** La gestión de la HOA necesita una ruta controlada desde la actividad de pago hasta una decisión defendible.
+El Motor de Asignación de Costos y Seguimiento de Presupuesto HOA está diseñado para ayudar a las asociaciones de propietarios (HOA), administradores de propiedades y miembros de la junta directiva a convertir transacciones financieras brutas en decisiones accionables de control de costos y presupuestación. Combina **el seguimiento de gastos HOA, el análisis de presupuesto vs. realidad, la asignación de costos, la validación de transacciones y los informes financieros** en un flujo de trabajo ligero de apoyo a la decisión.
 
-* **Clasificación de costos** convierte descripciones de transacciones inconsistentes en una vista de costos consistente. Esto resuelve el problema de comparar gastos dispares y hace que los conductores de costos recurrentes sean más fáciles de identificar.
-* **Análisis de variación** compara el gasto planeado con el gasto real a través del periodo de informes actual. Esto hace visible la presión del presupuesto mientras aún hay tiempo para investigarla o ajustarla.
-* **Alerta por umbral** separa la variación ordinaria de los elementos que merecen atención de gestión. El resultado es menos tiempo escaneando cada línea y más atención en excepciones materiales.
-* **Asignación de múltiples métodos** muestra cómo cambia el mismo grupo de costos comunes cuando cambia la base de asignación. Esto hace que las cuotas (assessment) a nivel de propietario sean más fáciles de explicar y revisar.
-* **Validación basada en excepciones** trata las transacciones no mapeadas, con apariencia de duplicadas y de reversión como elementos de revisión antes de que contaminen las conclusiones de gestión.
+En lugar de tratar la contabilidad y la presupuestación como tareas separadas, el modelo conecta los datos financieros a nivel de transacción con las preguntas que importan operativamente: ¿en qué está gastando su dinero la HOA? ¿Qué categorías de gastos están excediendo el presupuesto? ¿Cómo deben asignarse los costos compartidos entre las unidades? ¿Qué transacciones necesitan revisión antes de confiar en los informes financieros?
 
-La metodología por tanto mueve el flujo de trabajo desde **"¿Qué pagamos?"** hacia **"¿Qué pagamos, a dónde pertenece, es confiable el número, cómo se compara con el plan y qué significa para cada unidad?"**
+La metodología aborda estas preguntas mediante cinco métodos complementarios:
 
-### Lógica de Control de Extremo a Extremo
+- **Clasificación de Gastos y Categorización de Costos:** Estandariza descripciones de transacciones bancarias inconsistentes y registros de pagos a proveedores en categorías de gastos HOA consistentes. Esto reduce el esfuerzo de contabilidad manual, mejora la visibilidad del gasto y facilita la comparación de costos recurrentes de mantenimiento, servicios públicos, administración y otros costos operativos.
 
-```text
-Source Transactions
-        │
-        ▼
-Standardized Cost View
-        │
-        ├──────────────► Validation / Exceptions
-        │
-        ▼
-Monthly & YTD Cost Analysis
-        │
-        ├──────────────► Budget Variance
-        │
-        └──────────────► Common-Cost Allocation
-                                  │
-                                  ▼
-                         Owner-Level Assessment
-                                  │
-                                  ▼
-                         Management Decision
-```
+- **Análisis de Variación de Presupuesto vs. Realidad:** Compara el gasto real con los presupuestos aprobados por categoría y período de informes. La variación absoluta, la variación porcentual y el gasto acumulado revelan sobrecostos presupuestarios que pueden permanecer ocultos en los totales financieros agregados, ayudando a las juntas directivas HOA a investigar los aumentos de costos antes de que se conviertan en problemas presupuestarios persistentes.
 
-La elección de diseño importante es que **la validación se ejecuta junto a la ruta analítica**, en lugar de tratarse como una verificación cosmética final. Esto mantiene los registros cuestionables visibles antes de que se conviertan en métricas de gestión aparentemente precisas.
+- **Alertas Financieras Basadas en Umbrales:** Aplica umbrales de variación configurables para distinguir las diferencias rutinarias de las desviaciones presupuestarias materiales. En lugar de revisar cada gasto con la misma prioridad, los administradores de propiedades y los miembros de la junta directiva pueden concentrarse en las categorías que requieren investigación, acción correctiva o revisión presupuestaria.
+
+- **Asignación de Costos Comunes HOA:** Distribuye los gastos compartidos elegibles entre las unidades de propiedad utilizando métodos basados en superficie, participación igualitaria o ponderación configurada. Esto hace que la relación entre el gasto total de la comunidad y las cuotas a nivel de unidad sea más transparente y respalda la revisión de escenarios de asignación alternativos. El método aplicable debe mantenerse coherente con los documentos rectores de la HOA y los requisitos pertinentes.
+
+- **Validación de Transacciones y Detección de Excepciones:** Marca las transacciones no mapeadas, los posibles pagos duplicados y los asientos negativos o de reversión para su revisión. Estos controles ayudan a identificar problemas de calidad de datos antes de que distorsionen los informes de gastos, las comparaciones presupuestarias o los resultados de asignación a nivel de propietario.
+
+En conjunto, estos métodos crean un proceso repetible desde **datos financieros HOA brutos hasta gastos clasificados, registros validados, análisis de variación presupuestaria y visibilidad de costos a nivel de propietario**. El objetivo no es simplemente producir otro panel financiero. Es ayudar a los administradores HOA y a los miembros de la junta directiva a identificar sobrecostos antes, comprender los impulsores de los gastos comunitarios, revisar los supuestos de asignación y tomar decisiones financieras más defendibles.
+
+La herramienta está disponible como versión basada en navegador y como versión de Excel, proporcionando una alternativa ligera para las asociaciones que necesitan análisis financiero HOA estructurado sin adoptar de inmediato un sistema complejo de gestión de propiedades o financiero empresarial.
 
 ---
 
