@@ -1,6 +1,7 @@
-[ 🌐 عربي ](README.ar.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # Modèle de classeur pour la répartition des coûts et le suivi budgétaire d'une copropriété
+<img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-informational.svg)
@@ -8,7 +9,6 @@
 
 **Une alternative légère aux logiciels de comptabilité de copropriété et un modèle de classeur de gestion immobilière conçu pour les syndiques de copropriétaires. Transformez vos transactions bancaires brutes en dépenses catégorisées, en appels de fonds précis par lot et en rapports d'écart budget vs réalisé prêts à présenter au conseil — sans abonnement mensuel, sans installation et avec un accès fluide depuis un navigateur ou Excel.**
 
-<img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
 <img width="1436" height="790" alt="image" src="https://github.com/user-attachments/assets/17079dbe-86aa-4257-982c-c87d497cb5af" />
 
 
@@ -835,41 +835,25 @@ Il ne supprime pas la nécessité d'une revue comptable appropriée, de la conse
 
 ## Logique métier et méthodologie
 
-Le modèle repose sur un principe commercial simple : **le chiffre utile n'est pas nécessairement le premier chiffre disponible.** La gestion d'une copropriété a besoin d'un chemin maîtrisé, depuis l'activité de paiement jusqu'à une décision défendable.
+Le moteur de répartition des coûts et de suivi budgétaire HOA est conçu pour aider les associations de copropriétaires (HOA), les gestionnaires immobiliers et les membres du conseil à transformer les transactions financières brutes en décisions concrètes de maîtrise des coûts et de budgétisation. Il combine **le suivi des dépenses HOA, l'analyse budget vs. réalisé, la répartition des coûts, la validation des transactions et les rapports financiers** dans un flux de travail décisionnel léger.
 
-* La **classification des coûts** transforme des descriptions de transaction incohérentes en une vue de coûts homogène. Cela résout le problème de la comparaison de dépenses de nature différente et facilite l'identification des facteurs de coûts récurrents.
-* L'**analyse des écarts** compare les dépenses planifiées aux dépenses réelles sur la période de reporting en cours. Cela rend la pression budgétaire visible alors qu'il reste encore du temps pour enquêter ou l'ajuster.
-* Les **alertes par seuil** distinguent l'écart ordinaire des éléments qui méritent l'attention de la direction. Le résultat : moins de temps passé à parcourir chaque ligne et plus d'attention sur les exceptions significatives.
-* La **répartition multi-méthodes** montre comment un même pool de coûts communs évolue lorsque la base de répartition change. Cela facilite l'explication et la revue des appels de fonds par propriétaire.
-* La **validation fondée sur les exceptions** traite les transactions non affectées, ressemblant à des doublons et d'extour comme des points à vérifier avant qu'elles ne contaminent les conclusions de la direction.
+Plutôt que de traiter la tenue de livres et la budgétisation comme des tâches distinctes, le modèle relie les données financières au niveau des transactions aux questions qui comptent sur le plan opérationnel : où l'argent de la HOA est-il dépensé ? Quelles catégories de dépenses dépassent le budget ? Comment les coûts partagés doivent-ils être répartis entre les unités ? Quelles transactions doivent être examinées avant de pouvoir se fier aux rapports financiers ?
 
-La méthode fait donc évoluer le processus de **« Qu'avons-nous payé ? »** vers **« Qu'avons-nous payé, où cela appartient-il, le chiffre est-il fiable, comment se compare-t-il au plan et que signifie-t-il pour chaque lot ? »**
+La méthodologie répond à ces questions par cinq méthodes complémentaires :
 
-### Logique de contrôle de bout en bout
+- **Classification des dépenses et catégorisation des coûts :** Normalise les descriptions de transactions bancaires incohérentes et les enregistrements de paiements fournisseurs en catégories de dépenses HOA cohérentes. Cela réduit l'effort de tenue de livres manuelle, améliore la visibilité des dépenses et facilite la comparaison des coûts récurrents d'entretien, des services publics, d'administration et des autres coûts d'exploitation.
 
-```text
-Source Transactions
-        │
-        ▼
-Standardized Cost View
-        │
-        ├──────────────► Validation / Exceptions
-        │
-        ▼
-Monthly & YTD Cost Analysis
-        │
-        ├──────────────► Budget Variance
-        │
-        └──────────────► Common-Cost Allocation
-                                  │
-                                  ▼
-                         Owner-Level Assessment
-                                  │
-                                  ▼
-                         Management Decision
-```
+- **Analyse des écarts budget vs. réalisé :** Compare les dépenses réelles aux budgets approuvés par catégorie et par période de reporting. L'écart absolu, l'écart en pourcentage et les dépenses cumulées révèlent les dépassements budgétaires qui peuvent rester cachés dans les totaux financiers agrégés, aidant les conseils HOA à enquêter sur les augmentations de coûts avant qu'elles ne deviennent des problèmes budgétaires persistants.
 
-Le choix de conception important est que **la validation s'exécute en parallèle du chemin analytique**, plutôt que d'être traitée comme une simple vérification cosmétique finale. Cela garde visibles les enregistrements douteux avant qu'ils ne deviennent des indicateurs de direction apparemment précis. 
+- **Alertes financières par seuil :** Applique des seuils d'écart configurables pour distinguer les différences ordinaires des écarts budgétaires significatifs. Au lieu d'examiner chaque dépense avec la même priorité, les gestionnaires immobiliers et les membres du conseil peuvent se concentrer sur les catégories qui nécessitent une enquête, une action corrective ou une révision budgétaire.
+
+- **Répartition des coûts communs HOA :** Distribue les dépenses partagées éligibles entre les unités de propriété selon des méthodes basées sur la surface, à parts égales ou à pondération configurée. Cela rend la relation entre les dépenses totales de la communauté et les évaluations au niveau des unités plus transparente et permet d'examiner des scénarios de répartition alternatifs. La méthode applicable doit rester cohérente avec les documents gouvernant la HOA et les exigences pertinentes.
+
+- **Validation des transactions et détection des exceptions :** Signale les transactions non affectées, les paiements en double potentiels et les écritures négatives ou d'annulation pour examen. Ces contrôles aident à identifier les problèmes de qualité des données avant qu'ils ne faussent les rapports de dépenses, les comparaisons budgétaires ou les résultats de répartition au niveau des propriétaires.
+
+Ensemble, ces méthodes créent un processus reproductible allant des **données financières HOA brutes aux dépenses classées, aux enregistrements validés, à l'analyse des écarts budgétaires et à la visibilité des coûts au niveau des propriétaires**. L'objectif n'est pas simplement de produire un tableau de bord financier de plus. Il s'agit d'aider les gestionnaires HOA et les membres du conseil à identifier plus tôt les dépassements de coûts, à comprendre les moteurs des dépenses communautaires, à examiner les hypothèses de répartition et à prendre des décisions financières plus défendables.
+
+L'outil est disponible en version navigateur et en version Excel, offrant une alternative légère pour les associations qui ont besoin d'une analyse financière HOA structurée sans adopter immédiatement un système complexe de gestion immobilière ou de finance d'entreprise.
 
 ---
 
