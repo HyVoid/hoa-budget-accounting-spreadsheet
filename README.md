@@ -1,4 +1,4 @@
-[ 🌐 عربي ](README.ar.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # HOA Cost Allocation & Budget Tracking Spreadsheet Template
 <img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
