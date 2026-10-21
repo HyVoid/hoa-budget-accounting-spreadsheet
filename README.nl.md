@@ -1,6 +1,7 @@
-[ 🌐 عربي ](README.ar.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # Spreadsheet-sjabloon voor kostenallocatie en begrotingsbewaking voor VvE's
+<img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-informational.svg)
@@ -13,7 +14,6 @@
 > [🌐 Open de gratis webgebaseerde VvE-begrotingstracker] → [HTML live versie](https://hyvoid.github.io/hoa-budget-accounting-spreadsheet/)
 > 
 > [📥 Download het herbruikbare Excel-sjabloon voor VvE-financiën] → [Excel-versie](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README)
-<img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
 <img width="1436" height="790" alt="image" src="https://github.com/user-attachments/assets/17079dbe-86aa-4257-982c-c87d497cb5af" />
 
 ## Financiële knelpunten bij VvE's en geautomatiseerde oplossingen
@@ -833,41 +833,25 @@ Ze neemt de noodzaak van passende boekhoudkundige controle, bewaring van brondoc
 
 ## De bedrijfslogica en methodologie
 
-Het model is gebouwd rond een eenvoudig commercieel principe: **het nuttige getal is niet noodzakelijk het eerste beschikbare getal.** Het VvE-beheer heeft een gecontroleerd traject nodig van betalingsactiviteit naar een verdedigbare beslissing.
+De HOA-kostenallocatie- en begrotingsengine is ontworpen om verenigingen van eigenaars (HOA's), beheerders en bestuursleden te helpen ruwe financiële transacties om te zetten in concrete beslissingen over kostenbeheersing en budgettering. Het combineert **HOA-kostenregistratie, budget vs. werkelijkheid-analyse, kostenallocatie, transactievalidatie en financiële rapportage** in één lichtgewicht workflow voor besluitvorming.
 
-* **Kostenclassificatie** verandert inconsistente transactieomschrijvingen in een consistent kostenbeeld. Dit lost het probleem op van het vergelijken van ongelijksoortige uitgaven en maakt terugkerende kostendrijvers gemakkelijker te identificeren.
-* **Variantieanalyse** vergelijkt geplande uitgaven met werkelijke uitgaven gedurende de huidige rapportageperiode. Zo wordt budgetdruk zichtbaar terwijl er nog tijd is om die te onderzoeken of bij te sturen.
-* **Drempelwaarschuwingen** scheiden gewone afwijkingen van posten die aandacht van het management verdienen. Het resultaat is minder tijd aan het doorlopen van elke regel en meer aandacht voor materiële uitzonderingen.
-* **Allocatie met meerdere methoden** toont hoe dezelfde pool van gemeenschappelijke kosten verandert wanneer de allocatiebasis verandert. Dit maakt bijdragen per eigenaar gemakkelijker uit te leggen en te herzien.
-* **Validatie op basis van uitzonderingen** behandelt niet-toegewezen, op duplicaten lijkende en tegengeboekte transacties als controleposten voordat ze de managementconclusies vervuilen.
+In plaats van boekhouden en budgetteren als separate taken te behandelen, koppelt het model financiële gegevens op transactieniveau aan de vragen die operationeel het meest doen: waar geeft de HOA haar geld aan uit? Welke kostencategorieën overschrijden het budget? Hoe moeten gedeelde kosten over de eenheden worden verdeeld? Welke transacties moeten worden beoordeeld voordat financiële rapporten betrouwbaar zijn?
 
-De methodologie verschuift de workflow daarmee van **"Wat hebben we betaald?"** naar **"Wat hebben we betaald, waar hoort het thuis, is het getal betrouwbaar, hoe verhoudt het zich tot de planning en wat betekent het voor elke eenheid?"**
+De methodologie beantwoordt deze vragen met vijf complementaire methoden:
 
-### End-to-end besturingslogica
+- **Classificatie van uitgaven en kosten categoriseren:** Standaardiseert inconsistente banktransactieomschrijvingen en leveranciersbetalingsrecords naar consistente HOA-uitgavencategorieën. Dit vermindert handmatige boekhoudinspanning, verbetert de zichtbaarheid van uitgaven en maakt het eenvoudiger om terugkerende onderhouds-, energie- en water-, administratieve en andere operationele kosten te vergelijken.
 
-```text
-Source Transactions
-        │
-        ▼
-Standardized Cost View
-        │
-        ├──────────────► Validation / Exceptions
-        │
-        ▼
-Monthly & YTD Cost Analysis
-        │
-        ├──────────────► Budget Variance
-        │
-        └──────────────► Common-Cost Allocation
-                                  │
-                                  ▼
-                         Owner-Level Assessment
-                                  │
-                                  ▼
-                         Management Decision
-```
+- **Analyse van budget vs. werkelijkheid-afwijkingen:** Vergelijkt werkelijke uitgaven met goedgekeurde budgetten per categorie en rapportageperiode. Absolute afwijking, procentuele afwijking en cumulatieve uitgaven onthullen budgetoverschrijdingen die verborgen kunnen blijven in geaggregeerde financiële totalen, waardoor HOA-besturen kostenstijgingen kunnen onderzoeken voordat ze aanhoudende budgetproblemen worden.
 
-De belangrijke ontwerpkeuze is dat **validatie naast het analytische traject loopt**, in plaats van te worden behandeld als een cosmetische eindcontrole. Zo blijven twijfelachtige records zichtbaar voordat ze schijnbaar nauwkeurige managementcijfers worden.
+- **Waarschuwingen op basis van financiële drempels:** Past configureerbare afwijkingsdrempels toe om routineverschillen te onderscheiden van materiële budgetafwijkingen. In plaats van elke uitgave met dezelfde prioriteit te beoordelen, kunnen beheerders en bestuursleden zich richten op categorieën die onderzoek, corrigerende actie of budgetherziening vereisen.
+
+- **Allocatie van HOA-gemeenschappelijke kosten:** Verdeelt in aanmerking komende gedeelde uitgaven over de eenheden op basis van vierkante meters, gelijke aandelen of geconfigureerde weging. Dit maakt de relatie tussen totale gemeenschapsuitgaven en beoordelingen op eenheidsniveau transparanter en ondersteunt de beoordeling van alternatieve allocatiescenario's. De toepasselijke methode moet consistent blijven met de reglementen van de HOA en relevante vereisten.
+
+- **Transactievalidatie en detectie van uitzonderingen:** Markeert niet-toegewezen transacties, mogelijke dubbele betalingen en negatieve of tegenboekingen voor beoordeling. Deze controles helpen gegevenskwaliteitsproblemen te identificeren voordat ze uitgavenrapporten, budgetvergelijkingen of allocatieresultaten op eigenaarsniveau vertekenen.
+
+Samen creëren deze methoden een herhaalbaar proces van **ruwe HOA-financiële gegevens naar geclassificeerde uitgaven, gevalideerde records, analyse van budgetafwijkingen en zichtbaarheid van kosten op eigenaarsniveau**. Het doel is niet simpelweg om nog een financieel dashboard te produceren. Het is om HOA-beheerders en bestuursleden te helpen kostenoverschrijdingen eerder te identificeren, de drijfveren van gemeenschapsuitgaven te begrijpen, allocatieveronderstellingen te beoordelen en beter verdedigbare financiële beslissingen te nemen.
+
+De tool is beschikbaar als browsergebaseerde versie en als Excel-versie, wat een lichtgewicht alternatief biedt voor verenigingen die gestructureerde HOA-financiële analyse nodig hebben zonder direct een complex property-management- of enterprise-financiëndsysteem aan te schaffen.
 
 ---
 
