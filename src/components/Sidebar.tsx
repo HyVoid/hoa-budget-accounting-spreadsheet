@@ -108,14 +108,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
       <div className="p-5 border-b border-[#E5E5E1] flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-[8px] bg-[#051C2C] flex items-center justify-center text-white font-bold text-sm shadow-xs shrink-0">
-            <span className="font-display tracking-tight text-white font-semibold">HOA</span>
+            <span className="font-display tracking-tight text-white font-semibold">TW</span>
           </div>
           <div className="leading-tight">
             <div className="font-display font-bold text-[#051C2C] text-[17px] tracking-tight">
-              AssetLogic Pro
+              Theseus Workshop
             </div>
-            <div className="text-[10px] text-[#888888] font-semibold uppercase tracking-wider">
-              HOA Cost Engine
+            <div className="text-[10px] text-[#888888] font-medium tracking-wide">
+              HOA Cost Allocation &amp; Budget Engine
             </div>
           </div>
         </div>
@@ -247,10 +247,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <Menu className="w-5 h-5" />
           </button>
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded bg-[#051C2C] flex items-center justify-center text-white text-xs font-bold font-display">
-              H
+            <div className="w-6 h-6 rounded bg-[#051C2C] flex items-center justify-center text-white text-[10px] font-bold font-display">
+              TW
             </div>
-            <span className="font-display font-bold text-sm text-[#051C2C]">AssetLogic Pro</span>
+            <div className="leading-tight">
+              <span className="font-display font-bold text-sm text-[#051C2C] block">Theseus Workshop</span>
+              <span className="text-[9px] text-[#888888] font-medium block truncate max-w-[140px]">HOA Cost Engine</span>
+            </div>
           </div>
         </div>
 

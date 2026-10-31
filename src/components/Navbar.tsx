@@ -75,14 +75,14 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Brand Identity */}
           <div className="flex items-center gap-3 shrink-0">
             <div className="w-8 h-8 rounded-[8px] bg-[#051C2C] flex items-center justify-center text-white font-bold text-sm shadow-xs">
-              <span className="font-display tracking-tight text-white font-semibold">HOA</span>
+              <span className="font-display tracking-tight text-white font-semibold">TW</span>
             </div>
             <div className="leading-tight">
               <div className="font-display font-bold text-[#051C2C] text-[18px] tracking-tight">
-                AssetLogic Pro
+                Theseus Workshop
               </div>
-              <div className="text-[10px] text-[#888888] font-semibold uppercase tracking-wider">
-                HOA Cost Engine
+              <div className="text-[10px] text-[#888888] font-medium tracking-wide">
+                HOA Cost Allocation &amp; Budget Engine
               </div>
             </div>
           </div>

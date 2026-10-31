@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
         <div className="flex items-center gap-2">
           <ShieldCheck className="w-3.5 h-3.5 text-[#2251FF]" />
           <span>
-            AssetLogic Pro • HOA Cost Allocation & Budget Engine
+            Theseus Workshop • HOA Cost Allocation & Budget Engine
           </span>
         </div>
         <div className="footer-text py-0 text-center md:text-right">
