@@ -1,93 +1,141 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Plantilla de Hoja de Cálculo para Asignación de Costos y Seguimiento del Presupuesto de la HOA
+# Plantilla Gratuita de Presupuesto HOA, Asignación de Costos y Hoja de Cálculo de Contabilidad (Excel y Herramienta Web)
 <img width="1080" height="790" alt="image" src="https://github.com/user-attachments/assets/2ba64fec-7b91-4e8a-944f-7830f80be4c8" />
 
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-informational.svg)
-![Tool Type](https://img.shields.io/badge/Tool-Type-Decision%20Support-success.svg)
+![Platform](https://img.shields.io/badge/Platform-Web%20Browser%20%2B%20Microsoft%20Excel-informational.svg)
+![Tool Type](https://img.shields.io/badge/Category-HOA%20Accounting%20%26%20Property%20Management-success.svg)
+![User Level](https://img.shields.io/badge/Skill%20Level-Beginner%20Friendly%20(No%20Formulas%20Needed)-brightgreen.svg)
 
-**Una alternativa ligera al software de contabilidad para asociaciones de propietarios (HOA) y una plantilla de hoja de cálculo para la gestión de propiedades diseñada para asociaciones de propietarios. Convierta las transacciones bancarias sin procesar en gastos categorizados, cuotas (assessment) de propietarios precisas e informes listos para la junta directiva de variación de presupuesto vs. realidad, sin suscripciones mensuales, sin instalación y con acceso fluido a través del navegador o Excel.**
+<p><strong>Una <em>plantilla de presupuesto HOA en Excel</em> todo en uno y fácil de usar para principiantes, junto con una <em>alternativa ligera al software de contabilidad HOA</em>, diseñada para asociaciones de propietarios autogestionadas, juntas de condominios y pequeños administradores de propiedades. Convierta al instante estados de cuenta bancarios desordenados y exportaciones CSV sin procesar en gastos operativos HOA categorizados, seguimiento del fondo de reservas de capital, cuotas (assessment) prorrateadas automáticas para propietarios e informes de variación Presupuesto vs. Realidad listos para la junta directiva—sin suscripciones SaaS mensuales, sin título en contabilidad y sin necesidad de editar fórmulas.</strong></p>
 
-> **Pruebe hoy la versión gratuita basada en web para auditar las finanzas de su comunidad. Si necesita la versión sin conexión para registros permanentes del fondo de reservas, rastros de auditoría de proveedores y uso mensual repetido, puede actualizar con una garantía de devolución del dinero de 30 días, sin hacer preguntas.**
+> 💡 **¿Nuevo en GitHub? ¡No necesita tocar ningún archivo de código de arriba!** Use los enlaces directos de abajo para abrir la calculadora en su navegador o descargar la hoja de cálculo de Microsoft Excel lista para usar directamente en su computadora:
 >
-> [🌐 Abrir el Rastreador de Presupuesto HOA Gratuito en Web] → [versión en vivo HTML](https://hyvoid.github.io/hoa-budget-accounting-spreadsheet/)
-> 
-> [📥 Descargar la Plantilla Reutilizable de Excel Financiera para HOA] → [versión de Excel](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README)
-<img width="1436" height="790" alt="image" src="https://github.com/user-attachments/assets/17079dbe-86aa-4257-982c-c87d497cb5af" />
+> 🌐 **[Lance el Rastreador de Presupuesto HOA Gratuito en Web y la Calculadora de Costos en Línea](https://hyvoid.github.io/hoa-budget-accounting-spreadsheet/)** — *Categorización de gastos HOA al instante en el navegador y auditoría financiera de sesión única (sin inicio de sesión ni instalación).* 
+>
+> 📥 **[Descargue la Plantilla de Excel de Contabilidad y Presupuesto HOA Automatizada (.xlsx)](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README)** — *Hoja de cálculo reutilizable sin conexión con fórmulas de actualización automática preconstruidas, registros permanentes del fondo de reservas y una garantía de devolución del dinero de 30 días.*
 
-## Puntos Críticos Financieros de la HOA y Soluciones Automatizadas
+<img width="1436" height="790" alt="HOA Budget Template Excel Dashboard and Cost Allocation Calculator Preview" src="https://github.com/user-attachments/assets/17079dbe-86aa-4257-982c-c87d497cb5af" />
 
-En lugar de revisar un libro mayor bancario sin estructura, esta herramienta de seguimiento de gastos de la HOA mapea los cuellos de botella comunes de la gestión de propiedades a soluciones de informes automatizados:
+---
 
-| Dolor | Solución |
-| :--- | :--- |
-| **Exportaciones Bancarias Desordenadas y Gastos Sin Categorizar** | Mapea automáticamente los pagos de proveedores sin procesar y no estructurados en una taxonomía estandarizada de categorías de costos del presupuesto operativo y del fondo de reservas. |
-| **Sobrecostos de Mantenimiento Impredecibles** | Genera paneles de rendimiento **Presupuesto vs. Realidad en tiempo real**, incluyendo variación acumulada, tasa de consumo del presupuesto (burn rate) y marcadores visuales para las mayores exposiciones financieras. |
-| **Cálculo de Cuotas (Dues) y Cuotas Extraordinarias Complejas de la HOA** | Traduce los gastos comunes de propiedad en cuotas (assessment) precisas a nivel de propietario utilizando calculadoras de asignación ponderada personalizada, por superficie (square-footage) o de participación igualitaria. |
-| **Errores Ocultos en Cuentas por Pagar** | Crea un rastro de auditoría automatizado que marca posibles facturas duplicadas de proveedores, entradas de reversión negativas y transacciones no mapeadas del libro mayor general (GL). |
-| **Juntas Directivas Confusas** | Traduce los datos sin procesar en un resumen financiero a nivel de gestión, destacando el gasto operativo YTD, el costo promedio por unidad residencial y las categorías de sobrecosto principales para aprobaciones rápidas de la junta. |
+## Qué Le Ayuda a Rastrear Esta Hoja de Cálculo de Contabilidad HOA (Puntos Críticos vs. Soluciones)
 
-## Tutorial de Inicio Rápido: Automatice el Cierre Mensual de su HOA
+En lugar de ordenar manualmente un libro mayor bancario sin estructura o pagar cientos de dólares al mes por un software complejo de gestión HOA, esta **plantilla de contabilidad para asociaciones de propietarios** mapea los cuellos de botella financieros comunes de la comunidad directamente a soluciones de seguimiento automatizadas:
 
-### Paso 1: Configure el Año Fiscal y los Parámetros del Fondo de Reservas de la HOA
-
-Establezca su base financiera central. Defina el año fiscal activo, el mes de informes, la moneda y los umbrales de advertencia de variación del presupuesto. Configure su ventana de detección de pagos duplicados y el método de asignación de cuotas (assessment) de propietario predeterminado (por ejemplo, superficie vs. tarifa fija). Estas variables globales se establecen una vez en el panel de control para garantizar informes de cuentas por pagar consistentes.
-
-### Paso 2: Importe el Libro Mayor General y las Facturas de Proveedores
-
-Copie los datos financieros existentes de su propiedad y péguelos directamente en la pestaña de entrada de transacciones. El flujo de trabajo está optimizado para exportaciones estándar de gestión de propiedades: estados de cuenta bancarios, registros de pagos a proveedores, facturas de servicios públicos y recibos de mantenimiento de propiedades. Ingrese su presupuesto operativo anual aprobado y el registro de unidades residenciales en sus respectivas tablas. *No se requiere integración compleja de base de datos ni ajustes manuales de fórmulas.*
-
-### Paso 3: Genere Paneles Financieros Listos para la Junta Directiva
-
-Navegue a las vistas de informes automatizados. El motor procesa instantáneamente sus entradas sin procesar en inteligencia financiera accionable: formatos de fecha estandarizados, centros de costos ordenados, asignaciones de cuotas (assessment) aplicadas y alertas de alta visibilidad de variación del presupuesto. Revise el resumen YTD antes de su próxima junta directiva.
-
-### Paso 4: Descargue para Registro Permanente y Uso Repetido
-
-Una vez que haya validado los gastos del mes actual en la aplicación web, transición a un proceso de cierre mensual sostenible.
-
-**¿Listo para estandarizar los informes financieros de su comunidad? [📥 Descargue la Plantilla Permanente de Excel de Presupuesto HOA](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README) para asegurar sus rastros de auditoría sin conexión, retener los libros mayores generales históricos y repetir este flujo de trabajo optimizado cada mes sin empezar desde cero.**
-
-## Contabilidad Estándar vs. Hoja de Cálculo HOA Automatizada
-
-| Cuellos de botella comunes en la gestión financiera de la HOA | Contabilidad Manual Estándar (Sin Herramienta) | Solución de Hoja de Cálculo HOA Automatizada (Con Herramienta) |
+| Punto Crítico Común de Contabilidad HOA | Qué Le Ayuda a Rastrear (Métricas Clave) | Solución Automatizada de la Hoja de Cálculo |
 | :--- | :--- | :--- |
-| **Categorización del Libro Mayor General (GL)** | Las descripciones de facturas bancarias y de proveedores requieren interpretación y entrada de datos manual línea por línea. | Una estructura de mapeo de palabras clave mantenida convierte automáticamente los beneficiarios recurrentes en categorías estandarizadas de costos operativos/reserva. |
-| **Seguimiento de Variación del Presupuesto Operativo** | Los miembros de la junta descubren sobrecostos de mantenimiento solo después de agotar las reservas de efectivo trimestrales. | El gasto presupuesto vs. realidad se alinea por categoría, con umbrales de alerta automatizados que exponen los riesgos financieros de inmediato. |
-| **Auditorías de Cuentas por Pagar y Proveedores** | Los pagos duplicados a proveedores pasan desapercibidos al escanear manualmente miles de filas en una hoja de cálculo básica. | Las verificaciones algorítmicas exponen transacciones del mismo beneficiario y mismo monto dentro de una ventana de fechas personalizada como posibles facturas duplicadas. |
-| **Cálculo de Cuotas Extraordinarias y Cuotas (Dues)** | Dividir los costos compartidos de la comunidad entre tamaños de unidad variables causa errores de cálculo y disputas de propietarios. | Los grupos de costos automatizados se traducen instantáneamente en cuotas (assessment) a nivel de unidad utilizando lógica de superficie o ponderación personalizada. |
-| **Conciliación de Reembolsos y Reversiones** | Las reversiones bancarias y los depósitos reembolsados distorsionan el análisis real del gasto operativo. | Las transacciones negativas y los créditos de proveedores se ponen en cuarentena automáticamente como excepciones que requieren verificación del tesorero. |
-| **Fatiga de Decisión de los Miembros de la Junta** | Los tesoreros deben sintetizar múltiples pestañas dispares de Excel para presentar la salud financiera de la comunidad. | Una vista de gestión consolidada aísla el consumo total de efectivo, % de consumo del presupuesto, costo por unidad y sobrecostos prioritarios. |
+| **Exportaciones CSV Bancarias Desordenadas y Gastos Sin Categorizar** | **Plan de Cuentas (COA) y Gastos Operativos Mensuales** (Jardinería, Servicios Públicos, Seguros, Piscina, Legal) | Mapea automáticamente las descripciones bancarias sin procesar y los pagos a proveedores en un presupuesto operativo HOA y una taxonomía de reservas de capital estandarizados. |
+| **Sobrecostos Inesperados de Mantenimiento y Servicios Públicos** | **Variación Presupuesto vs. Realidad en Tiempo Real y Tasa de Consumo (Burn Rate)** (Gasto YTD, % de Presupuesto Restante, Alertas de Sobrecosto) | Genera paneles de rendimiento instantáneos con señales de advertencia visuales en el momento en que cualquier categoría de mantenimiento de la propiedad supera su umbral de seguridad. |
+| **Cuotas (Dues) y Cuotas Extraordinarias de la HOA Injustas o Confusas** | **Cuotas (Assessment) HOA por Unidad y Grupos de Costos Prorrateados** (Superficie, Participación Igualitaria, Derechos Personalizados) | Calcula las cuotas (dues) exactas de los propietarios y las cuotas extraordinarias de emergencia por unidad residencial según las reglas de asignación de los CC&R de su comunidad. |
+| **Facturas de Proveedores Pagadas Dos Veces y Errores de Contabilidad** | **Rastro de Auditoría de Cuentas por Pagar (AP) y Libro de Proveedores 1099** (Facturas Duplicadas, Reembolsos, Reversiones, Filas No Mapeadas) | Escanea miles de filas para marcar pagos duplicados del mismo proveedor y mismo monto, y aísla las reversiones bancarias negativas antes de que los informes lleguen a la junta. |
+| **Discusiones de 2 Horas en las Juntas de la HOA** | **Resumen del Paquete de la Junta para la AGM y KPIs Ejecutivos** (Consumo Total de Efectivo, Costo Promedio por Unidad, 3 Principales Riesgos Financieros) | Condensa libros mayores complejos en un resumen de gestión de 1 página para que los miembros voluntarios de la junta aprueben presupuestos en minutos. |
 
-## Casos de Uso Ideales: ¿Quién Usa Esta Plantilla de Gestión HOA?
+---
 
-Este motor está diseñado para profesionales y voluntarios que necesitan una supervisión financiera rigurosa sin la pesadez y el costo del software empresarial de gestión de propiedades (como AppFolio o Buildium).
+## Tutorial de Inicio Rápido: Contabilidad HOA en 1 Minuto y Cierre Mensual Automatizado
 
-* **Tesoreros de Juntas de HOA Autogestionadas:** Perfecto para miembros voluntarios de la junta que necesitan una *plantilla de hoja de cálculo para tesoreros de HOA* confiable para preparar paquetes financieros transparentes y fáciles de explicar para las juntas generales anuales.
-* **Gestores de Propiedades Independientes:** Ideal para operadores que gestionan un portafolio de 5 a 15 asociaciones residenciales más pequeñas, que requieren una *plantilla de Excel de presupuesto para gestión de propiedades* estandarizada para escalar sus informes mensuales entre diferentes propiedades.
-* **Administradores de Finanzas Comunitarias:** Esencial para los auxiliares de contabilidad encargados de conciliar *presupuestos operativos de HOA* y calcular *cuotas extraordinarias* precisas basadas en convenios complejos del vecindario.
+Los principios contables comerciales y las reglas de asignación de costos HOA pueden ser complicados, **pero usar esta herramienta no requiere experiencia financiera alguna**. Cada regla de búsqueda, umbral de variación y fórmula de distribución prorrateada ya está preconstruida y bloqueada entre bastidores. 
 
-*(Nota: La capacidad operativa probada de esta plantilla maneja aproximadamente 50,000 filas de transacciones por año fiscal y admite hasta 2,000 unidades de propietarios. Para desarrollos multimillonarios de varias fases, se recomienda una base de datos SQL dedicada o una arquitectura ERP completa.)*
+### Paso 1: Configure el Año Fiscal y las Reglas de Cuotas (Assessment) de su HOA (30 Segundos)
+Abra el panel de control y seleccione su año fiscal activo, mes de informes, moneda y umbral de alerta de variación del presupuesto (por ejemplo, marcar cualquier categoría que exceda el presupuesto en más del 10%). Elija el **método de cálculo de cuotas (dues) HOA** predeterminado de su comunidad—como división igualitaria por unidad, prorrateo por superficie o porcentaje personalizado de participación. Configure estos parámetros una vez y olvídelos.
 
-## Resolviendo Finanzas Comunitarias Complejas: Escenarios Dirigidos
+### Paso 2: Copie y Pegue Transacciones Bancarias y Presupuestos Sin Procesar (15 Segundos)
+Exporte el estado de cuenta mensual de su cuenta corriente o de reservas desde su banco (CSV o Excel) y **pegue las filas sin procesar directamente en la pestaña de entrada**. Pegue su presupuesto anual HOA aprobado y la lista de propietarios de unidades en sus tablas correspondientes. 
+* **Sin ingreso manual de datos:** Funciona directamente con estados de cuenta bancarios de propiedades sin procesar, facturas de servicios públicos y registros de pagos a proveedores.
+* **Sin mantenimiento de fórmulas:** Nunca necesita escribir un `VLOOKUP`, construir una Tabla Dinámica ni **siquiera hacer doble clic en la esquina de una celda para arrastrar fórmulas hacia abajo**.
 
-Ya sea que esté navegando una crisis de infraestructura repentina o planificando la salud a largo plazo de la comunidad, esta herramienta se adapta a escenarios financieros de alto riesgo específicos:
+### Paso 3: Revise Paneles Financieros Instantáneos Listos para la Junta (15 Segundos)
+Haga clic en la pestaña del panel. El motor automatizado de la hoja de cálculo limpia al instante las fechas, categoriza los proveedores en su **plan de cuentas HOA**, marca facturas duplicadas, calcula asignaciones de costos por unidad y destaca sus principales sobrecostos de presupuesto en colores de alto contraste. En **menos de 1 minuto**, sabrá exactamente dónde está parada la comunidad y qué decisión debe tomar primero la junta.
 
-* **Navegando Reparaciones Inesperadas de Techo o Camino:** Cuando ocurre un gasto masivo no presupuestado, use el motor de asignación para proyectar de inmediato cómo el costo impactará las *cuotas (fees) mensuales de la HOA* individuales versus extraer del *fondo de reservas de capital*.
-* **Transición del Desarrollador al Control de los Propietarios:** Las HOA recién entregadas a menudo heredan registros financieros desordenados y sin estructura. La función de mapeo de palabras clave actúa como una *herramienta de limpieza del libro mayor general*, organizando rápidamente el gasto histórico del desarrollador en un presupuesto base para propietarios.
-* **Realizando Auditorías de Proveedores de Fin de Año:** Antes de renovar contratos de jardinería, mantenimiento de piscinas o gestión de propiedades, aproveche los informes de gastos categorizados para negociar mejores tarifas basadas en el consumo histórico exacto.
+### Paso 4: Descargue la Plantilla de Excel Reutilizable para una Contabilidad Mensual Sin Esfuerzo
+Una vez que vea la rapidez con la que la calculadora web audita su mes actual, cambie a la plantilla de Excel permanente sin conexión para poner su contabilidad mensual en piloto automático.
 
-## Por Qué Construí Este Marco Productizado
-
-La revisión financiera de la HOA a menudo fracasa por una razón simple: los números existen, pero no están organizados en torno a las decisiones que la junta realmente necesita tomar.
-
-Un estado de cuenta bancario estándar demuestra que se realizó un pago. No demuestra si el proveedor fue clasificado correctamente, si la factura era duplicada, o si esa categoría de servicios públicos específica está drenando el presupuesto anual. Esto crea un patrón de fallo recurrente donde las juntas aprueban presupuestos basándose en saldos de efectivo totales en lugar del rendimiento a nivel de categoría.
-
-Construí este rastreador para cerrar exactamente esa brecha. Opera como un **marco de razonamiento productizado**—convirtiendo progresivamente la actividad financiera sin procesar en clasificación, validación, análisis de variación, asignación de cuotas (assessment) y, en última instancia, decisiones de gestión seguras.
-
-> **¿Qué información necesita estar en un solo lugar para tomar la próxima decisión con confianza?** 
+> 🚀 **Conviértase en un Analista Financiero HOA Seguro en 1 Minuto—con Copiar y Pegar de Un Clic**
 > 
-> *Comience a rastrear hoy para descubrirlo.*
+> ¿Por qué pasar sus fines de semana luchando con celdas de hoja de cálculo rotas o conciliando recibos de proveedores línea por línea? Nuestra **plantilla de Excel HOA preconstruida** tiene cada fórmula dinámica, regla automática de coincidencia de proveedores y gráfico de actualización automática ya cableados. Ni siquiera necesita arrastrar o copiar una sola fórmula—simplemente descargue el archivo localmente, pegue sus datos bancarios sin procesar y obtenga claridad financiera instantánea y sin errores. Libere su temporada de mayor actividad para concentrarse en mejoras reales de la comunidad mientras toma decisiones de junta 100% defendibles.
+> 
+> 👉 **[Descargue Aquí la Plantilla Reutilizable de Excel de Presupuesto y Contabilidad HOA (.xlsx)](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README)** *(Descarga local instantánea • Fórmulas de actualización automática • Reutilizable de por vida entre años fiscales)*
+
+---
+
+## Contabilidad Manual vs. Hoja de Cálculo de Contabilidad HOA Automatizada
+
+Vea cómo esta **plantilla de gestión financiera HOA** de conectar y usar se compara con construir una hoja de cálculo básica desde cero:
+
+| Tarea de Gestión Financiera HOA | Hoja de Excel Manual Estándar (Desde Cero) | Plantilla de Contabilidad HOA Automatizada (Esta Herramienta) |
+| :--- | :--- | :--- |
+| **Libro Mayor General (GL) y Categorización de Proveedores** | El tesorero debe leer y escribir manualmente las categorías de gastos para cientos de filas bancarias cada mes. | El motor de mapeo de palabras clave integrado asigna automáticamente los proveedores recurrentes (p. ej., agua, basura, jardinería) a fondos Operativos vs. Reservas. |
+| **Seguimiento del Presupuesto Operativo vs. Realidad** | La junta descubre la escasez de efectivo para mantenimiento solo al final del año, después de que las cuentas de reserva se han agotado. | El seguimiento automatizado de variaciones mensuales y YTD activa alertas visuales en el momento en que un centro de costos gasta de más. |
+| **Auditoría de Facturas Duplicadas en Cuentas por Pagar (AP)** | Las facturas de jardinería o reparaciones pagadas dos veces pasan desapercibidas en listas largas de transacciones. | Un escaneo de auditoría algorítmica marca montos idénticos del mismo proveedor dentro de su ventana de fechas personalizada como **posibles pagos duplicados**. |
+| **Asignación de Cuotas Extraordinarias y Cuotas de Condominio** | Dividir los costos de reparación compartidos entre tamaños de unidad variables genera fórmulas rotas y disputas entre propietarios. | La calculadora automatizada de asignación prorrateada de costos distribuye los gastos compartidos por superficie, participación igualitaria o ponderaciones personalizadas. |
+| **Manejo de Reembolsos, Créditos y Reversiones Bancarias** | Los depósitos reembolsados por proveedores y las reversiones bancarias distorsionan los totales reales del gasto operativo. | Las entradas negativas y los créditos se ponen automáticamente en cuarentena en una **Cola de Revisión de Excepciones** para la firma del tesorero. |
+| **Tiempo de Preparación de la Asamblea General Anual (AGM)** | Requiere de 5 a 10 horas de formato manual para armar un informe financiero legible para los propietarios. | Genera un **paquete financiero HOA listo para la junta** en 60 segundos que muestra el consumo de efectivo, el costo por unidad y las principales acciones a seguir. |
+
+---
+
+## Para Quién Es Esto: Casos de Uso HOA y de Gestión de Propiedades por Rol
+
+Esta plantilla está diseñada para voluntarios y operadores que necesitan controles financieros profesionales sin las tarifas mínimas de más de $300/mes y las curvas de aprendizaje empinadas del software empresarial de propiedades (como AppFolio, Buildium o Yardi):
+
+* **Tesoreros y Presidentes Voluntarios de Juntas HOA:** La **hoja de cálculo de contabilidad HOA autogestionada** ideal para voluntarios del vecindario que tomaron las cuentas sin formación contable formal y necesitan una forma infalible de rastrear cuotas (dues), controlar costos de proveedores y presentar informes transparentes en las Asambleas Generales Anuales (AGM).
+* **Asociaciones Autogestionadas de Condominios y Casas Adosadas:** Diseñada para **juntas de asociaciones de condominios pequeñas y medianas (de 10 a 250 unidades)** que comparten gastos de techo, ascensor, piscina y seguros maestros y necesitan una **calculadora precisa de cuotas de condominio y cuotas extraordinarias** basada en la superficie de la unidad o el porcentaje de propiedad.
+* **Administradores de Propiedades Independientes y Operadores de Portafolio:** Una **plantilla de Excel de presupuesto para gestión de propiedades** estandarizada para administradores boutique que supervisan de 5 a 20 asociaciones residenciales más pequeñas (HOA, POA, Co-ops) y necesitan informes mensuales uniformes para clientes sin pagar tarifas de software por unidad.
+* **Contadores de Bienes Raíces y CPAs a Tiempo Parcial:** Una herramienta rápida de **limpieza y conciliación del libro mayor general** para contadores contratados para organizar estados de cuenta bancarios desordenados de fin de año de asociaciones de propietarios para la presentación de impuestos (Formulario 1120-H) o revisiones financieras anuales.
+
+*(Nota de Capacidad Técnica: Este motor de hoja de cálculo procesa cómodamente hasta 50,000 filas de transacciones por año fiscal y hasta 2,000 unidades residenciales. Para comunidades planificadas masivas que requieren cobro automatizado de rentas ACH, se recomienda una base de datos ERP completa.)*
+
+---
+
+## Cuándo Usar Esta Plantilla Financiera HOA: Escenarios Comunitarios de Alto Riesgo
+
+Los buscadores y los propietarios hacen preguntas financieras difíciles cuando las crisis comunitarias golpean. Use esta herramienta para resolver exactamente estos escenarios de alto riesgo:
+
+### 1. Cómo Calcular una Cuota Extraordinaria HOA de Emergencia (Reparación de Techo, Camino o Estructura)
+Cuando una reparación de capital no presupuestada de $50,000 golpea, adivinar la cuota por propietario causa un rechazo inmediato de la comunidad. Pegue la cotización de reparación en la **calculadora de asignación de costos HOA** para comparar al instante cuánto debe cada unidad bajo la ponderación por superficie vs. la división igualitaria—y modele cuánto puede absorber su **fondo de reservas de capital** existente antes de aumentar las cuotas (dues) mensuales de la HOA.
+
+### 2. Cómo Limpiar Registros HOA Desordenados Después del Traspaso del Desarrollador o la Renuncia del Tesorero
+Las comunidades recién autogestionadas o los tesoreros entrantes a menudo heredan una caja de recibos y 12 meses de PDFs/CSVs bancarios sin categorizar. Use las **reglas automatizadas de categorización por palabras clave** para convertir un año completo de transacciones bancarias sin procesar en un **estado de ingresos y gastos HOA** limpio y auditado en una sola tarde.
+
+### 3. Cómo Auditar Contratos de Proveedores y Justificar Aumentos de Cuotas HOA a los Propietarios
+Cuando la inflación empuja al alza los costos de servicios públicos, seguros y jardinería, los propietarios exigen pruebas antes de aprobar un aumento del presupuesto. Use el **panel de variación Presupuesto vs. Realidad** y el **desglose histórico de gasto por proveedor** para mostrar a los propietarios los impulsores de costos exactos, dólar a dólar, por unidad residencial—convirtiendo juntas emotivas en aprobaciones objetivas basadas en hechos.
+
+---
+
+## La Lógica de Negocio y Metodología: Eliminando Puntos Ciegos Financieros Ocultos de la HOA
+
+La mayoría de las crisis financieras de HOA autogestionadas no ocurren porque alguien robe dinero. Ocurren porque voluntarios bien intencionados confían en saldos bancarios básicos o en hojas de cálculo manuales que ocultan **cuatro puntos ciegos financieros críticos**. 
+
+Estos son los hechos financieros objetivos—y cómo la lógica de negocio integrada de esta plantilla lo protege automáticamente de ellos:
+
+### Punto Ciego 1: La Ilusión del "Efectivo en el Banco" (Saldo Total vs. Tasa de Consumo por Categoría)
+* **El Hecho Objetivo:** Tener $60,000 en la cuenta corriente de la HOA **no** significa que su comunidad esté dentro del presupuesto. Si $45,000 de ese efectivo pertenecen a su fondo de reservas para el reemplazo del techo a largo plazo, y sus facturas de jardinería y agua ya han consumido el 140% de su presupuesto anual en agosto, su HOA en realidad está operando con un déficit severo.
+* **Cómo lo Resuelve la Plantilla:** En lugar de mirar un saldo bancario de suma global, el motor separa **Costos Operativos vs. Fondos de Reserva** y calcula la **Variación Presupuesto vs. Realidad (% y $) en tiempo real** para cada categoría. Las alertas visuales de bandera roja le advierten el mes exacto en que una categoría comienza a gastar de más, dándole tiempo para ajustar antes de que se agote el efectivo.
+
+### Punto Ciego 2: La Trampa de la "División Igualitaria" (Violación de las Reglas de Asignación de los CC&R)
+* **El Hecho Objetivo:** En muchos condominios, casas adosadas y comunidades planificadas, los documentos rectores (CC&R) exigen legalmente que los gastos compartidos—como los seguros de exteriores, reparaciones de techos o el pavimentado de caminos privados—se dividan por **superficie de la unidad** o **porcentaje de participación**, no igualmente por unidad. Calcular esto manualmente en una calculadora a menudo genera errores matemáticos, fondos insuficientemente recaudados o desafíos legales de propietarios sobrecobrados.
+* **Cómo lo Resuelve la Plantilla:** El **Motor de Asignación de Costos Comunes HOA** integrado vincula automáticamente el gasto total de cada categoría a su registro de unidades. Con un clic, calcula la obligación en dólares exacta de cada unidad bajo reglas de participación igualitaria, superficie o ponderación personalizada—verificado matemáticamente al 100% y transparente para que los propietarios lo inspeccionen.
+
+### Punto Ciego 3: Fugas Silenciosas de Dinero (Facturas Duplicadas de Proveedores y Vertido en "Varios")
+* **El Hecho Objetivo:** Los tesoreros voluntarios suelen rotar cada 12 a 24 meses. Durante los traspasos, es notablemente común que una factura de jardinería, una cuenta de servicio de piscina o un depósito de reparación se pague dos veces—o que miles de dólares en cheques no revisados se depositen en una vaga fila de "Varios" donde nadie los cuestiona.
+* **Cómo lo Resuelve la Plantilla:** La plantilla incluye un **Auditor Automatizado de Cuentas por Pagar y Detector de Excepciones**. Escanea automáticamente su libro mayor para marcar pagos del mismo proveedor y mismo monto realizados dentro de una ventana configurable (p. ej., de 7 a 30 días), aísla las reversiones negativas y destaca cualquier transacción no mapeada para que ni un solo dólar pase sin verificar.
+
+### Punto Ciego 4: Parálisis por Análisis en las Juntas (Ahogarse en Filas en Lugar de Tomar Decisiones)
+* **El Hecho Objetivo:** Si entrega a 5 miembros voluntarios de la junta una impresión bancaria de 400 filas en una reunión de martes por la noche, pasarán 90 minutos debatiendo un recibo de suministros de oficina de $25 mientras pasan completamente por alto una tendencia de fuga de agua estructural de $9,000. Los datos sin procesar paralizan a los principiantes; los resúmenes priorizados impulsan la acción.
+* **Cómo lo Resuelve la Plantilla:** El modelo opera como un **embudo de apoyo a la decisión**. Filtra el ruido rutinario dentro del presupuesto y clasifica automáticamente sus **Principales Sobrecostos de Presupuesto, Tasa de Consumo de Efectivo y Costo por Unidad** en la parte superior del panel—permitiendo que un principiante completo identifique la prioridad financiera #1 en menos de 60 segundos.
+
+---
+
+## Acerca de Theseus Workshop y Más Plantillas de Negocio de Conectar y Usar
+
+Este **Motor de Asignación de Costos y Seguimiento de Presupuesto HOA** es desarrollado y mantenido por **[Theseus Workshop](https://theseusworkshop.com?utm_source=github&utm_medium=GitHub%20README)**—un estudio dedicado a convertir marcos financieros, operativos y comerciales complejos en **herramientas de hoja de cálculo de conectar y usar sin configuración** para operadores no técnicos, fundadores en solitario y líderes comunitarios.
+
+Creemos que no debería necesitar un MBA, un equipo de ciencia de datos ni una suscripción de software de $500/mes para tomar decisiones financieras cristalinas. Cada herramienta de Theseus Workshop se construye sobre el mismo principio: **bloqueamos las matemáticas comerciales complejas y las fórmulas automatizadas bajo el capó, para que usted simplemente copie, pegue y actúe según la información en 1 minuto.**
+
+* 📥 **[Obtenga la Plantilla Completa Reutilizable de Excel de Presupuesto y Contabilidad HOA (.xlsx)](https://theseusworkshop.com/l/stwjpi?utm_source=github&utm_medium=GitHub%20README)** — *Descargue la versión de Excel sin conexión desbloqueada con mapeo automatizado de proveedores, seguimiento de reservas y una garantía de devolución del dinero de 30 días, sin hacer preguntas.*
+* 🧰 **[Explore Todas las Plantillas de Excel Automatizadas y Herramientas de Decisión de Negocio en TheseusWorkshop.com](https://theseusworkshop.com?utm_source=github&utm_medium=GitHub%20README)** — *Explore nuestra biblioteca completa de seguimiento financiero, calculadoras operativas y sistemas de gestión sin código de conectar y usar en nuestra tienda oficial.*
 
 ---
 
@@ -135,7 +183,7 @@ Management Output
 La implementación utiliza **11 componentes de hoja de cálculo a través de cinco capas lógicas**, con la configuración y los datos maestros separados de las entradas sin procesar, los motores de cálculo, los informes y la presentación de gestión.
 
 | Capa | Hoja | Rol Principal |
-| :--- | :--- | :--- |
+| ------------- | -------------------- | ----------------------------------------------------------------------------------- |
 | Configuration | `SYS_Parameters` | Control central de año, mes, moneda, umbrales y método de asignación predeterminado |
 | Master Data | `DIM_CostMapping` | Jerarquía de categorías de costos y reglas de mapeo de palabras clave |
 | Master Data | `DIM_Owners` | Datos de unidad, propietario, superficie y peso de asignación |
@@ -174,10 +222,10 @@ El modelo por tanto evita usar el panel de gestión como una capa de cálculo in
 **Enfoque correcto:** Compare el gasto real contra el presupuesto a nivel de categoría de costos y ordene la variación resultante.
 
 | Vista | Resultado |
-| :--- | :--- |
+| ------------------- | ----------------------------------------------------------------------------------------- |
 | Gasto agregado | Parece aceptable |
 | Variación por categoría | Una categoría de mantenimiento supera materialmente el plan |
-| Respuesta de gestión | Investigue el conductor de costos específico en lugar de juzgar todo el presupuesto desde un total |
+| Respuesta de gestión | Investigue el impulsor de costos específico en lugar de juzgar todo el presupuesto desde un total |
 
 El motor de variación del libro de Excel calcula tanto la variación absoluta como la variación porcentual, y luego asigna un estado de alerta basado en el umbral configurado. La variación positiva representa gasto por encima del presupuesto; la variación negativa representa capacidad de presupuesto restante.
 
@@ -231,7 +279,7 @@ IF(
 El motor admite asignación por superficie, asignación igualitaria y ponderación configurable. Esto hace que el mecanismo de asignación sea visible en lugar de enterrarlo dentro de un cálculo mantenido manualmente.
 
 | Enfoque | Base | Pregunta de Gestión |
-| :--- | :--- | :--- |
+| -------------- | ---------------------------- | --------------------------------------------------------- |
 | Superficie | Área de unidad / área total | ¿La política de asignación rectora usa el tamaño de la propiedad? |
 | Igual | 1 / número de unidades | ¿El gasto está destinado a compartirse por igual? |
 | Peso | Factor de propietario/unidad configurado | ¿Están sujetas unidades específicas a una regla de ponderación ajustada? |
@@ -689,7 +737,7 @@ Una extracción representativa de los 5 principales sobrecostos es:
 )
 ```
 
-La capa de gestión por tanto responde la pregunta operativa **"¿Dónde debe mirar la junta primero?"** en lugar de crear otra fuente independiente de números financieros.
+La capa de gestión por tanto responde la pregunta operativa **“¿Dónde debe mirar la junta primero?”** en lugar de crear otra fuente independiente de números financieros.
 
 </details>
 
@@ -698,7 +746,7 @@ La capa de gestión por tanto responde la pregunta operativa **"¿Dónde debe mi
 La validación está diseñada como una capa de control separada en lugar de incrustar todo el manejo de errores dentro de las fórmulas de informes.
 
 | Campo / Área | Regla | Comportamiento de Error |
-| :--- | :--- | :--- |
+| --------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | Fecha de transacción | Debe contener un valor de fecha válido | Los registros inválidos o inutilizables deben corregirse antes de confiar en el análisis de periodo |
 | Referencia de transacción | Debe identificar el pago de origen o el registro bancario | Las referencias faltantes debilitan la trazabilidad de auditoría |
 | Beneficiario | Debe contener el proveedor / contraparte de pago | La información de beneficiario faltante reduce la calidad de detección de pagos duplicados |
@@ -723,7 +771,7 @@ La capa de validación del modelo está explícitamente destinada a identificar 
 La arquitectura fue diseñada con trazabilidad explícita de entrada a salida.
 
 | Control | Fuente | Consumidor | Estado |
-| :--- | :--- | :--- | :--- |
+| -------------------------- | -------------------- | ---------------------------------------- | ----------- |
 | Año activo | `SYS_Parameters!C5` | Limpieza, asignación, informes mensuales | Bucle cerrado |
 | Mes activo | `SYS_Parameters!C6` | Asignación, análisis de variación, panel | Bucle cerrado |
 | Umbral de variación | `SYS_Parameters!C7` | Alertas de variación del presupuesto | Bucle cerrado |
@@ -757,11 +805,20 @@ Maintain Mapping Rules
 Review Dashboard & Allocation Output
 ```
 
-1. **Actualice el periodo de informes.** Cambie el mes activo en `SYS_Parameters`.
-2. **Agregue las transacciones más recientes.** Agregue los registros bancarios o de pago más recientes al área de entrada de transacciones. El gasto permanece positivo; los reembolsos o reversiones permanecen negativos.
-3. **Revise la validación.** Verifique el indicador de salud del sistema e investigue la tabla de excepciones antes de tratar la salida de informes como final.
-4. **Mantenga las reglas de clasificación.** Si las transacciones recurrentes aparecen como `Unmapped`, agregue la palabra clave y el mapeo de categoría apropiados al diccionario maestro.
-5. **Emita la salida de gestión.** Revise el panel y el informe de variación. Donde se requiera, use la salida de asignación para la cuota (assessment) a nivel de propietario o la preparación de estados.
+1. **Actualice el periodo de informes.**
+   Cambie el mes activo en `SYS_Parameters`.
+
+2. **Agregue las transacciones más recientes.**
+   Agregue los registros bancarios o de pago más recientes al área de entrada de transacciones. El gasto permanece positivo; los reembolsos o reversiones permanecen negativos.
+
+3. **Revise la validación.**
+   Verifique el indicador de salud del sistema e investigue la tabla de excepciones antes de tratar la salida de informes como final.
+
+4. **Mantenga las reglas de clasificación.**
+   Si las transacciones recurrentes aparecen como `Unmapped`, agregue la palabra clave y el mapeo de categoría apropiados al diccionario maestro.
+
+5. **Emita la salida de gestión.**
+   Revise el panel y el informe de variación. Donde se requiera, use la salida de asignación para la cuota (assessment) a nivel de propietario o la preparación de estados.
 
 ### Límites de Mantenimiento y Operación
 
@@ -823,38 +880,27 @@ No elimina la necesidad de una revisión contable apropiada, retención de docum
 
 </details>
 
----
-
-## La Lógica de Negocio y Metodología
-
-El Motor de Asignación de Costos y Seguimiento de Presupuesto HOA está diseñado para ayudar a las asociaciones de propietarios (HOA), administradores de propiedades y miembros de la junta directiva a convertir transacciones financieras brutas en decisiones accionables de control de costos y presupuestación. Combina **el seguimiento de gastos HOA, el análisis de presupuesto vs. realidad, la asignación de costos, la validación de transacciones y los informes financieros** en un flujo de trabajo ligero de apoyo a la decisión.
-
-En lugar de tratar la contabilidad y la presupuestación como tareas separadas, el modelo conecta los datos financieros a nivel de transacción con las preguntas que importan operativamente: ¿en qué está gastando su dinero la HOA? ¿Qué categorías de gastos están excediendo el presupuesto? ¿Cómo deben asignarse los costos compartidos entre las unidades? ¿Qué transacciones necesitan revisión antes de confiar en los informes financieros?
-
-La metodología aborda estas preguntas mediante cinco métodos complementarios:
-
-- **Clasificación de Gastos y Categorización de Costos:** Estandariza descripciones de transacciones bancarias inconsistentes y registros de pagos a proveedores en categorías de gastos HOA consistentes. Esto reduce el esfuerzo de contabilidad manual, mejora la visibilidad del gasto y facilita la comparación de costos recurrentes de mantenimiento, servicios públicos, administración y otros costos operativos.
-
-- **Análisis de Variación de Presupuesto vs. Realidad:** Compara el gasto real con los presupuestos aprobados por categoría y período de informes. La variación absoluta, la variación porcentual y el gasto acumulado revelan sobrecostos presupuestarios que pueden permanecer ocultos en los totales financieros agregados, ayudando a las juntas directivas HOA a investigar los aumentos de costos antes de que se conviertan en problemas presupuestarios persistentes.
-
-- **Alertas Financieras Basadas en Umbrales:** Aplica umbrales de variación configurables para distinguir las diferencias rutinarias de las desviaciones presupuestarias materiales. En lugar de revisar cada gasto con la misma prioridad, los administradores de propiedades y los miembros de la junta directiva pueden concentrarse en las categorías que requieren investigación, acción correctiva o revisión presupuestaria.
-
-- **Asignación de Costos Comunes HOA:** Distribuye los gastos compartidos elegibles entre las unidades de propiedad utilizando métodos basados en superficie, participación igualitaria o ponderación configurada. Esto hace que la relación entre el gasto total de la comunidad y las cuotas a nivel de unidad sea más transparente y respalda la revisión de escenarios de asignación alternativos. El método aplicable debe mantenerse coherente con los documentos rectores de la HOA y los requisitos pertinentes.
-
-- **Validación de Transacciones y Detección de Excepciones:** Marca las transacciones no mapeadas, los posibles pagos duplicados y los asientos negativos o de reversión para su revisión. Estos controles ayudan a identificar problemas de calidad de datos antes de que distorsionen los informes de gastos, las comparaciones presupuestarias o los resultados de asignación a nivel de propietario.
-
-En conjunto, estos métodos crean un proceso repetible desde **datos financieros HOA brutos hasta gastos clasificados, registros validados, análisis de variación presupuestaria y visibilidad de costos a nivel de propietario**. El objetivo no es simplemente producir otro panel financiero. Es ayudar a los administradores HOA y a los miembros de la junta directiva a identificar sobrecostos antes, comprender los impulsores de los gastos comunitarios, revisar los supuestos de asignación y tomar decisiones financieras más defendibles.
-
-La herramienta está disponible como versión basada en navegador y como versión de Excel, proporcionando una alternativa ligera para las asociaciones que necesitan análisis financiero HOA estructurado sin adoptar de inmediato un sistema complejo de gestión de propiedades o financiero empresarial.
 
 ---
 
 ### Otras Herramientas en Esta Serie
 
-* **Kit de Herramientas de Cálculo y Conciliación de Costo Aduanero (Landed Cost)** — asignación, comparación de referencia e investigación de variación para bienes importados.
-* **Herramientas de Control de Costos de Construcción y BOQ** — estimación estructurada y control de costos a nivel de proyecto.
-* **Herramientas de Planificación de Inventario y Reabastecimiento** — modelos de planificación operativa para existencias, demanda y decisiones de compra.
-* **Modelos de Pronóstico Financiero y Escenarios** — marcos de planificación ligeros que conectan supuestos operativos con resultados financieros.
+* **[project-time-tracking-excel-template](https://github.com/HyVoid/project-time-tracking-excel-template)** — ¿Qué proyectos se desvían en costo de tiempo o margen? — Analice la asignación de costos de mano de obra del proyecto y la rentabilidad a través de carteras de proyectos activas.
+* **[Caf-audit-tool-for-efficient-reviews](https://github.com/HyVoid/Caf-audit-tool-for-efficient-reviews)** — ¿Qué dimensión operativa está costando más ingresos y la fuga financiera exige intervención inmediata? — Convierta observaciones estructuradas de cafetería en una puntuación de diagnóstico ponderada, una estimación de fuga financiera y una lista priorizada de acciones correctivas.
+* **[Restaurant-Menu-Configuration-Modifier-Pricing-Toolkit](https://github.com/HyVoid/Restaurant-Menu-Configuration-Modifier-Pricing-Toolkit)** — ¿El menú tiene precios consistentes en todas las combinaciones de modificadores y tamaños, o hay errores de precios ocultos esperando salir a la luz? — Centralice las reglas de precios de modificadores de la configuración del menú del restaurante y los datos del menú listos para POS en una única fuente de verdad gobernada.
+* **[wedding-planner](https://github.com/HyVoid/wedding-planner)** — ¿Qué tareas, costos y cronogramas de la planificación de la boda necesitan coordinación? — Coordine la gestión de proveedores, el seguimiento de tareas y el control del presupuesto en los flujos de trabajo de planificación de bodas.
+* **[manufacturing-capacity-planning-template](https://github.com/HyVoid/manufacturing-capacity-planning-template)** — ¿Se está utilizando la capacidad de mano de obra de manera eficiente o la operación necesita diferentes dotaciones o programaciones? — Transforme los planes de producción y los datos de mano de obra en utilización de capacidad, asignación de costos laborales y decisiones de dotación.
+* **[cin7-excel-reporting-template](https://github.com/HyVoid/cin7-excel-reporting-template)** — ¿Qué dicen los datos operativos de Cin7 sobre el desempeño del negocio? — Traduzca los datos de inventario y operaciones de Cin7 en perspectivas accionables de desempeño del negocio.
+* **[employee-performance-dashboard-excel](https://github.com/HyVoid/employee-performance-dashboard-excel)** — ¿Qué empleados y proyectos están en riesgo de incumplir la entrega y dónde debe intervenir la gestión antes de que venzan los plazos? — Conecte la planificación anual de trabajo, el seguimiento de la ejecución, la evaluación de desempeño ponderada y los informes de gestión en un flujo de trabajo operativo continuo.
+* **[rental-property-management-excel-template](https://github.com/HyVoid/rental-property-management-excel-template)** — ¿Qué unidades están perdiendo ingresos por vacantes no detectadas y qué rotaciones necesitan acción inmediata? — Transforme los registros de reservas en estado de ocupación en vivo, inteligencia de vacantes y alertas operativas a través de toda una cartera de alquiler.
+* **[workforce-planning-payroll-excel-dashboard](https://github.com/HyVoid/workforce-planning-payroll-excel-dashboard)** — ¿La organización está consumiendo su capacidad anual de mano de obra más rápido de lo planeado y qué departamentos necesitan intervención antes de que los costos de horas extra se disparen? — Consolide el gasto de nómina, las horas contratadas anuales, los ratios de horas extra y la utilización de la mano de obra en un marco de planificación de capacidad entre departamentos.
+* **[warehouse-billing-excel-template](https://github.com/HyVoid/warehouse-billing-excel-template)** — ¿Los cargos de facturación del almacén son precisos y trazables a los registros operativos subyacentes? — Calcule los cargos de almacenamiento, manipulación y transporte del almacén en estados de cuenta de clientes auditables.
+* **[commercial-hvac-plumbing-bid-estimator](https://github.com/HyVoid/commercial-hvac-plumbing-bid-estimator)** — ¿Cuál es un precio de oferta defendible y auditable para este proyecto comercial MEP? — Estime y realice seguimiento de los costos de proyectos MEP comerciales desde el despiece hasta la presentación final de la oferta.
+* **[landed-cost-calculator-excel](https://github.com/HyVoid/landed-cost-calculator-excel)** — ¿Por qué el costo aduanero (landed cost) a nivel de SKU de mi ERP difiere de la API del agente de carga, y qué método de asignación está causando la erosión del margen? — Concilie y compare los cálculos de costo aduanero contra una plantilla de practicante para rastrear las diferencias de asignación de costos a nivel de SKU hasta su lógica contable subyacente.
+* **[homeowner-management-excel-template](https://github.com/HyVoid/homeowner-management-excel-template)** — ¿Cuál es mi costo total real de ser propietario de una vivienda, incluidos todos los gastos ocultos? — Calcule el costo total de la propiedad integrando hipoteca, servicios públicos, mantenimiento y mejoras de capital.
+* **[crew-scheduling-excel-template](https://github.com/HyVoid/crew-scheduling-excel-template)** — ¿Podrá mi cuadrilla actual manejar la carga de trabajo cuando las fechas del proyecto se desplacen y se superpongan? — Pronostique la demanda de cuadrillas y las brechas de dotación en un horizonte de 12 meses para respaldar decisiones de planificación de capacidad.
+* **[Schedule-Driven-Construction-Cash-Curve-Workbook](https://github.com/HyVoid/Schedule-Driven-Construction-Cash-Curve-Workbook)** — ¿Cómo se desarrollarán con el tiempo el flujo de caja y el avance planificado de mi proyecto de construcción según el cronograma? — Convierta los cronogramas de construcción y los registros de partidas de oferta en curvas S automatizadas, pronósticos de costos por fases y seguimientos del avance planificado.
+* **[shop-floor-mrp-kanban-excel-system](https://github.com/HyVoid/shop-floor-mrp-kanban-excel-system)** — ¿Funcionará nuestro cronograma de soldadura a nivel de turno sin faltantes de materiales que detengan la línea? — Calcule los requerimientos de materiales impulsados por el BOM y las señales de reabastecimiento Kanban a partir de los cronogramas de producción a nivel de turno.
 
 ---
 
