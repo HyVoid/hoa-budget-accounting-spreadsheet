@@ -33,6 +33,14 @@ Instead of manually sorting through an unstructured bank ledger or paying hundre
 | **Double-Paid Vendor Bills & Bookkeeping Mistakes** | **Accounts Payable (AP) Audit Trail & 1099 Vendor Ledger** (Duplicate Invoices, Refunds, Reversals, Unmapped Rows) | Scans thousands of rows to flag same-vendor, same-amount duplicate payments and isolates negative bank reversals before reports go to the board. |
 | **2-Hour Arguments at HOA Board Meetings** | **AGM Board Packet Summary & Executive KPIs** (Total Cash Burn, Average Cost per Door, Top 3 Financial Risks) | Condenses complex general ledgers into a 1-page management summary so volunteer board members can approve budgets in minutes. |
 
+## Spreadsheet Preview
+
+Want to take a closer look before downloading? You can preview the spreadsheet in Google Sheets to explore its layout, structure, and calculation logic.
+
+**[View Spreadsheet Preview on Google Sheets](https://docs.google.com/spreadsheets/d/1Tk07KUsw9ORcIRRXqz-8dMxlIUjI0c-m/edit?usp=sharing&ouid=108770714531989318327&rtpof=true&sd=true)**
+
+> **Note on Compatibility:** The Google Sheets preview may display occasional `#NAME?` errors or formula warnings due to differences between Google Sheets and Microsoft Excel formula compatibility. These are preview-only compatibility issues and do not affect the functionality of the original Excel workbook. For the intended formula behavior and full functionality, please download and open the `.xlsx` file in Microsoft Excel.
+
 ---
 
 ## Quick Start Tutorial: 1-Minute HOA Bookkeeping & Automated Monthly Close
